@@ -1,0 +1,108 @@
+export const CATEGORIES = [
+    "All",
+    "Tutorial",
+    "Documentation",
+    "Notes",
+    "Course",
+    "Video",
+    "Book",
+    "Article",
+  ];
+export const RESOURCES = [
+    {
+        id: 1,
+        title: "React Server Components Explained",
+        type: "Tutorial",
+        source: "Next.js Docs",
+        url: "#",
+        description:
+            "A walkthrough of how RSC changes data fetching and component boundaries in Next.js apps.",
+        tags: ["react", "nextjs", "rsc"],
+        date: "2026-08-14",
+        favorite: true,
+    },
+    {
+        id: 2,
+        title: "Tailwind CSS — Flexbox & Grid Cheatsheet",
+        type: "Documentation",
+        source: "tailwindcss.com",
+        url: "#",
+        description:
+            "Quick reference for layout utilities including gap, place-items, and responsive prefixes.",
+        tags: ["css", "tailwind", "layout"],
+        date: "2026-07-02",
+        favorite: false,
+    },
+    {
+        id: 3,
+        title: "My Notes: JavaScript Closures",
+        type: "Notes",
+        source: "Personal",
+        url: "#",
+        description:
+            "Summary of lexical scope, practical closure patterns, and common interview gotchas.",
+        tags: ["javascript", "fundamentals"],
+        date: "2026-09-01",
+        favorite: true,
+    },
+    {
+        id: 4,
+        title: "Building Accessible Forms",
+        type: "Tutorial",
+        source: "web.dev",
+        url: "#",
+        description:
+            "Semantic HTML, ARIA labels, focus management, and error messaging done right.",
+        tags: ["accessibility", "html", "forms"],
+        date: "2026-06-21",
+        favorite: false,
+    },
+    {
+        id: 5,
+        title: "MDN Reference: Array Methods",
+        type: "Documentation",
+        source: "developer.mozilla.org",
+        url: "#",
+        description:
+            "Canonical reference for map, filter, reduce, flatMap with examples and browser support.",
+        tags: ["javascript", "reference"],
+        date: "2026-05-30",
+        favorite: false,
+    },
+    {
+        id: 6,
+        title: "Git Rebase vs Merge — Decision Notes",
+        type: "Notes",
+        source: "Personal",
+        url: "#",
+        description:
+            "When to rebase feature branches, when history matters, and safe force-push rules.",
+        tags: ["git", "workflow"],
+        date: "2026-08-28",
+        favorite: false,
+    },
+    {
+        id: 7,
+        title: "State Management Without a Library",
+        type: "Tutorial",
+        source: "Overreacted",
+        url: "#",
+        description:
+            "Using Context, reducer, and lifting state before reaching for Redux or Zustand.",
+        tags: ["react", "state", "javascript"],
+        date: "2026-07-19",
+        favorite: true,
+    },
+    {
+        id: 8,
+        title: "Next.js App Router Conventions",
+        type: "Documentation",
+        source: "nextjs.org",
+        url: "#",
+        description:
+            "File conventions for layouts, loading states, route groups, and parallel routes.",
+        tags: ["nextjs", "routing"],
+        date: "2026-09-10",
+        favorite: false,
+    },
+];
